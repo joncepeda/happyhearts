@@ -1,0 +1,466 @@
+body, html {
+  height: 100%;
+}
+
+* {
+	font-size: 12pt;
+	font-family: "Lato";
+	color: #000;
+}
+@font-face {
+  font-family: 'carolina';
+  src: url("../fonts/Carolina Mountains.ttf") format('truetype');
+}
+.happy-font-carolina {
+	font-family: 'carolina', Fallback, sans-serif;
+}
+.happy-carolina {
+    margin-bottom: -100px;
+}
+.happy-carolina, .happy-carolina span {
+	font-size: 99px;
+	font-family: 'carolina', Fallback, sans-serif;
+}
+.happy-red {
+	color: #c82027;
+}
+.happy-header {
+	background-image: url("../img/Banner.png");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 2;
+	position: relative;
+}
+.happy-section {
+	padding-top: 95px;
+    padding-bottom: 95px;
+}
+nav {
+	background: none;
+	box-shadow: none;
+	margin-top: 20px;
+}
+
+nav ul a {
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+nav ul a.contact {
+	background: #c82027;
+	color: #fff;
+}
+
+
+.happy-banner {
+	position: relative;
+	z-index: 2;
+}
+
+.happy-banner-text {
+	height: 35vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: -55px;
+}
+.happy-carolina-under {
+	text-align: right;
+    font-size: 31px;
+    display: block;
+    width: 840px;
+    letter-spacing: 7px;
+}
+.happy-banner-btn {
+	margin-top: 104px;
+}
+.happy-banner-read {
+	background: none;
+	border: 2px solid #c82027;
+	color: #c82027;
+	font-weight: bold;
+	margin-right: 55px;
+}
+.happy-banner-read.btn-large:hover  {
+	background-color: #c82027;
+	color: #fff;
+}
+.happy-banner-inquire {
+	background: #000;
+	color: #fff;
+	border: 2px solid #000;
+
+}
+.happy-banner-inquire.btn-large:hover {
+	background: #fff;
+	color: #000;
+	border: 2px solid #000;
+}
+.happy-about-us {
+    margin: 0;
+    position: relative;
+    width: 300px;
+    border-bottom: 2px solid #c82027;
+    padding-bottom: 20px;
+}
+.happy-about p {
+	font-size: 1.3em;
+    position: relative;
+    z-index: 3;
+}
+
+.happy-about-video {
+	background-image: url("../img/about us.png");
+	min-height: 450px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.happy-box {
+    outline: 120px solid #fff;
+    transform: rotate(10deg);
+    height: 430px;
+    width: 871px;
+    z-index: 1;
+    position: absolute;
+}
+.happy-video-btn {
+    position: relative;
+    min-height: 450px;
+}
+.happy-vid {
+	position: absolute;
+    bottom: 65px;
+    right: 85px;
+    z-index: 3;
+    cursor: pointer;
+}
+.happy-vid span {
+	color: #fff;
+	vertical-align: super;
+}
+.happy-vid:hover span {
+	text-decoration: underline;
+}
+.happy-vid:hover i {
+	border-radius: 40%;
+}
+.happy-vid i {
+	border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #fff;
+    color: #000;
+    transition: all 0.2s;
+}
+.happy-package {
+	background: #f8f8f8;
+}
+.happy-package h3 {
+	margin: 0 auto;
+	width: 400px;
+	border-bottom: 2px solid #c82027;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.happy-package-flower {
+	position: relative;
+    margin-top: 85px;
+    background: #fff;
+    padding-bottom: 40px;
+}
+.happy-package-flower h4 {
+	text-align: center;
+	color: #c82027;
+	padding-top: 60px;
+	font-size: 3.5em;
+}
+.happy-package-flower p {
+	width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+.happy-flower {
+	margin: 0 auto;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #c82027;
+    position: absolute;
+    top: -50px;
+    left: 40%;
+}
+.happy-flower img {
+	margin-top: 15px;
+}
+.happy-package-btn {
+	font-size: 0.85em;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+   	font-weight: bold;
+    width: 150px;
+    display: block;
+    padding: 0;
+}
+.happy-package-details {
+	background: none;
+    border: 2px solid #c82027;
+    color: #c82027;
+    margin-bottom: 30px;
+    margin-top: 65px;
+}
+.happy-package-details.btn:hover  {
+	background-color: #c82027;
+	color: #fff;
+}
+.happy-package-quote {
+	background: #000;
+	color: #fff;
+	border: 2px solid #000;
+}
+.happy-package-quote.btn:hover {
+	background: #fff;
+	color: #000;
+	border: 2px solid #000;
+}
+
+.happy-team {
+	background: #242424;
+	min-height: 500px;
+}
+
+.happy-team h3 {
+	margin: 0 auto;
+	width: 400px;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.happy-team-name,.happy-team-desc,.happy-team-more,.happy-team-img {
+	color: #fff;
+	text-align: center;
+}
+.happy-team-img img{
+	border-radius: 50%;
+}
+.happy-team-name {
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: bold;
+	margin: 0;
+}
+.happy-team-desc {
+	font-style: italic;
+}
+.happy-team-more {
+	margin-top: 15px;
+	font-size: 1.1em;
+	text-decoration: underline;
+	display: block
+}
+.happy-team-follow {
+	margin-top: 15px;
+}
+.happy-team-follow ul {
+	text-align: center;
+	margin: 0;
+}
+.happy-team-follow ul li, .happy-team-pagination ul li{
+	display: inline;
+}
+.happy-team-pagination {
+	margin-top: 60px;
+}
+
+.happy-team-pagination ul {
+	margin: 0;
+	text-align: center;
+}
+.happy-team-pagination ul li {
+	width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    display: inline-block;
+    margin: 0 10px;
+}
+.happy-team-pagination ul li.active {
+	background: #bbbbbb;
+}
+
+.happy-blog h3 {
+	width: 400px;
+	border-bottom: 2px solid #c82027;
+    padding-bottom: 20px;
+}
+.happy-blog-thumbnail img {
+	width: 100%;
+}
+.happy-blog-details h5 {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.happy-blog-detail-date {
+	display: block;
+}
+.happy-blog-detail-content {
+	font-size: 0.85em;
+
+}
+.happy-date {
+	vertical-align: top;
+}
+.happy-blog-cont {
+	max-height: 655px;
+	overflow-y: auto;
+}
+
+.happy-blog-detail-continue {
+	display: block;
+	text-decoration: underline;
+	font-weight: bold;
+	margin-top: 5px;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+.happy-blog-detail-continue:hover {
+	cursor: pointer;
+	
+}
+
+.happy-team-show {
+	padding-top: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.happy-team-show a{
+	background: #000;
+	color: #fff;
+	border: 2px solid #000;
+}
+.happy-team-show a:hover {
+	background: #fff;
+	color: #000;
+}
+
+.happy-contact {
+	background-image: url("../img/contact.png");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.happy-contact h3 {
+	width: 400px;
+	border-bottom: 2px solid #c82027;
+    padding-bottom: 20px;
+}
+.happy-contact-form {
+    padding: 15px;
+    border: 2px solid #c82027;
+}
+
+.happy-contact-form .input-field>label{
+	color: #c82027;
+	
+}
+.happy-contact-form textarea {
+	height: 12rem;
+}
+.happy-contact-form .target-date-icon {
+	margin-left: -26px;
+	color: #c82027;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+	border-bottom: 1px solid #c82027;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #c82027;
+    -webkit-box-shadow: 0 1px 0 0 #c82027;
+    box-shadow: 0 1px 0 0 #c82027;
+    background-color: transparent;
+}
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #c82027;
+    font-weight: bold;
+}
+
+.happy-btn-submit {
+	margin-top: 20px;
+	color: #fff;
+	background: #c82027;
+	float: right;
+	font-weight: bold;
+}
+.happy-btn-submit:hover {
+	background: #fff;
+	color: #c82027;
+}
+
+.happy-footer {
+	min-height: 120px;
+	background: #000;
+}
+.happy-footer-logo {
+	margin-top: 40px;
+}
+.happy-footer-icon {
+	border-radius: 50%;
+	height: 35px;
+	width: 35px;
+	line-height: 45px;
+	background: #fff;
+	color: #000;
+	text-align: center;
+
+}
+.happy-footer-detail {
+    margin-top: 40px;
+}
+.happy-footer-detail.happy-email, .happy-footer-detail.happy-facebook {
+	margin-top: 47px;
+}
+.happy-copyright {
+	background: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.happy-footer-text, .happy-footer-icon {
+	display: inline-block;
+}
+.happy-footer-text {
+
+}
+.happy-footer-text span{
+	color: #fff;
+	display: block
+}
+
+.happy-footer-icon.phone {
+    vertical-align: super;
+}
+.happy-footer-icon.email {
+    vertical-align: middle;
+}
+
+.happy-footer-icon.facebook {
+    line-height: 56px;
+}
+.happy-footer-icon.facebook i{
+    font-size: 2em;
+}
+.happy-facebook .happy-footer-text {
+	vertical-align: super;
+}
