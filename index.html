@@ -3,67 +3,78 @@
 
 <head>
     <title>Happy Hearts</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="src/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="src/css/happy.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-    
 </head>
 
 <body>
     <div class="happy-header">
-        <div class="row">
-            <div class="col s12 m4 l8 offset-l2">
-                <nav>
-                    <div class="nav-wrapper">
-                        <a href="#" class="brand-logo"><img src="src/img/Happy_Hearts_Logo.png"></a>
-                        <ul id="nav-mobile" class="right hide-on-med-and-down">
-                            <li><a href="">home</a></li>
-                            <li><a href="">our story</a></li>
-                            <li><a href="">our packages</a></li>
-                            <li><a href="">blog</a></li>
-                            <li><a href="">events</a></li>
-                            <li><a href="" class="waves-effect red darken-3 waves-light btn contact">contact us</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m4 l8 offset-l2">
-                <div class="happy-banner">
-                    <div class="happy-banner-text">
-                        <h1 class="happy-carolina">Heart that shares <span class="happy-red">happiness.</span></h1>
-                    </div>
-                    <span class="happy-carolina-under">Not your ordinary event planner.</span>
-                    <div>
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <nav>
+                        <div class="nav-wrapper">
+                            <a href="#" class="brand-logo"><img src="src/img/Happy_Hearts_Logo.png"></a>
+                            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                                <i class="material-icons">menu</i>
+                            </a>
+                            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                                <li><a href="">home</a></li>
+                                <li><a href="">our story</a></li>
+                                <li><a href="">our packages</a></li>
+                                <li><a href="">blog</a></li>
+                                <li><a href="">events</a></li>
+                                <li><a href="" class="waves-effect red darken-3 waves-light btn contact">contact us</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <ul class="sidenav" id="mobile-demo">
+                        <li><a href=""><img src="src/img/Happy_Hearts_Logo.png"></a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">OUR STORY</a></li>
+                        <li><a href="">OUR PACKAGES</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">EVENTS</a></li>
+                        <li><a href="" class="waves-effect red darken-3 waves-light btn contact">contact us</a></li>
+                    </ul>
                 </div>
-                <div class="happy-banner-btn">
-                    <a href="" class="happy-banner-read waves-effect waves-light btn-large">READ OUR STORY</a>
-                    <a href="" class="happy-banner-inquire waves-effect waves-light btn-large">INQUIRE NOW</a>
+            </div>
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <div class="happy-banner">
+                        <div class="happy-banner-text">
+                            <h1 class="happy-carolina">Heart that shares <span class="happy-red">happiness.</span></h1>
+                        </div>
+                        <span class="happy-carolina-under">Not your ordinary event planner.</span>
+                    </div>
+                    <div class="happy-banner-btn">
+                        <a href="" class="happy-banner-read waves-effect waves-light btn-large">READ OUR STORY</a>
+                        <a href="" class="happy-banner-inquire waves-effect waves-light btn-large">INQUIRE NOW</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="happy-about happy-section">
-        <div class="row">
-            <div class="col s12 m4 l8 offset-l2">
-                <div class="row">
-                    <div class="col s4">
-                        <h3 class="happy-about-us">ABOUT US</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus. Praesent vitae congue mi. Aenean ac dolor eget lectus ullamcorper varius. Etiam lacinia semper enim et suscipit. Sed eu varius libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-                    </div>
-                    <div class="col s8">
-                        <div class="happy-about-video">
-                            <div class="happy-box"></div>
-                            <div class="happy-video-btn">
-                                <div class="happy-vid">
-                                    <i class="material-icons">play_arrow</i>
-                                    <span>WATCH VIDEO</span>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <div class="row">
+                        <div class="col s12 m12 l4">
+                            <h3 class="happy-about-us">ABOUT US</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus. Praesent vitae congue mi. Aenean ac dolor eget lectus ullamcorper varius. Etiam lacinia semper enim et suscipit. Sed eu varius libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+                        </div>
+                        <div class="col s12 m12 l8">
+                            <div class="happy-about-video">
+                                <div class="happy-box"></div>
+                                <div class="happy-video-btn">
+                                    <div class="happy-vid">
+                                        <i class="material-icons">play_arrow</i>
+                                        <span>WATCH VIDEO</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -73,41 +84,43 @@
         </div>
     </div>
     <div class="happy-package happy-section">
-        <div class="row">
-            <div class="col s12 m4 l8 offset-l2">
-                <h3>OUR PACKAGES</h3>
-                <div class="row">
-                    <div class="col s4">
-                        <div class="happy-package-flower">
-                            <div class="happy-flower">
-                                <img src="src/img/rose.png">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <h3>OUR PACKAGES</h3>
+                    <div class="row">
+                        <div class="col s4 happy-package-wrapper">
+                            <div class="happy-package-flower">
+                                <div class="happy-flower">
+                                    <img src="src/img/rose.png">
+                                </div>
+                                <h4 class="happy-font-carolina">rose</h4>
+                                <p class="happy-flower-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus.</p>
+                                <a class="waves-effect waves-light btn happy-package-btn happy-package-details">VIEW DETAILS</a>
+                                <a class="waves-effect waves-light btn happy-package-btn happy-package-quote">GET A FREE QUOTE</a>
                             </div>
-                            <h4 class="happy-font-carolina">rose</h4>
-                            <p class="happy-flower-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus.</p>
-                            <a class="waves-effect waves-light btn happy-package-btn happy-package-details">VIEW DETAILS</a>
-                            <a class="waves-effect waves-light btn happy-package-btn happy-package-quote">GET A FREE QUOTE</a>
                         </div>
-                    </div>
-                    <div class="col s4">
-                        <div class="happy-package-flower">
-                            <div class="happy-flower">
-                                <img src="src/img/tulips.png">
+                        <div class="col s4 happy-package-wrapper">
+                            <div class="happy-package-flower">
+                                <div class="happy-flower">
+                                    <img src="src/img/tulips.png">
+                                </div>
+                                <h4 class="happy-font-carolina">tulips</h4>
+                                <p class="happy-flower-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus.</p>
+                                <a class="waves-effect waves-light btn happy-package-btn happy-package-details">VIEW DETAILS</a>
+                                <a class="waves-effect waves-light btn happy-package-btn happy-package-quote">GET A FREE QUOTE</a>
                             </div>
-                            <h4 class="happy-font-carolina">tulips</h4>
-                            <p class="happy-flower-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus.</p>
-                            <a class="waves-effect waves-light btn happy-package-btn happy-package-details">VIEW DETAILS</a>
-                            <a class="waves-effect waves-light btn happy-package-btn happy-package-quote">GET A FREE QUOTE</a>
                         </div>
-                    </div>
-                    <div class="col s4">
-                        <div class="happy-package-flower">
-                            <div class="happy-flower">
-                                <img src="src/img/orchid.png">
+                        <div class="col s4 happy-package-wrapper">
+                            <div class="happy-package-flower">
+                                <div class="happy-flower">
+                                    <img src="src/img/orchid.png">
+                                </div>
+                                <h4 class="happy-font-carolina">orchid</h4>
+                                <p class="happy-flower-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus.</p>
+                                <a class="waves-effect waves-light btn happy-package-btn happy-package-details">VIEW DETAILS</a>
+                                <a class="waves-effect waves-light btn happy-package-btn happy-package-quote">GET A FREE QUOTE</a>
                             </div>
-                            <h4 class="happy-font-carolina">orchid</h4>
-                            <p class="happy-flower-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus.</p>
-                            <a class="waves-effect waves-light btn happy-package-btn happy-package-details">VIEW DETAILS</a>
-                            <a class="waves-effect waves-light btn happy-package-btn happy-package-quote">GET A FREE QUOTE</a>
                         </div>
                     </div>
                 </div>
@@ -115,333 +128,332 @@
         </div>
     </div>
     <div class="happy-team happy-section">
-        <div class="row">
-            <div class="col s12 m4 l8 offset-l2">
-                <h3>MEET OUR TEAM</h3>
-                <div class="row">
-                    <div class="col s2 offset-s1">
-                        <div class="happy-team-container">
-                            <div class="happy-team-img">
-                                <img src="src/img/mugshot.png">
-                            </div>
-                            <p class="happy-team-name">ROSE</p>
-                            <div class="happy-team-follow">
-                                <ul>
-                                    <li><a href=""><img src="src/img/facebook.png"></a></li>
-                                    <li><a href=""><img src="src/img/instagram.png"></a></li>
-                                    <li><a href=""><img src="src/img/twitter.png"></a></li>
-                                    <li><a href=""><img src="src/img/linkedin.png"></a></li>
-                                    <li><a href=""><img src="src/img/youtube.png"></a></li>
-                                </ul>
-                            </div>
-                            <div class="happy-team-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
-                            <a class="happy-team-more">KNOW MORE</a>
+        <div class="container">
+            <h3>MEET OUR TEAM</h3>
+            <div class="row">
+                <div class="col s6 m4 l2 offset-l1">
+                    <div class="happy-team-container">
+                        <div class="happy-team-img">
+                            <img src="src/img/mugshot.png">
                         </div>
-                    </div>
-                    <div class="col s2">
-                        <div class="happy-team-container">
-                            <div class="happy-team-img">
-                                <img src="src/img/mugshot.png">
-                            </div>
-                            <p class="happy-team-name">ROSE</p>
-                            <div class="happy-team-follow">
-                                <ul>
-                                    <li><a href=""><img src="src/img/facebook.png"></a></li>
-                                    <li><a href=""><img src="src/img/instagram.png"></a></li>
-                                    <li><a href=""><img src="src/img/twitter.png"></a></li>
-                                    <li><a href=""><img src="src/img/linkedin.png"></a></li>
-                                    <li><a href=""><img src="src/img/youtube.png"></a></li>
-                                </ul>
-                            </div>
-                            <div class="happy-team-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
-                            <a class="happy-team-more">KNOW MORE</a>
+                        <p class="happy-team-name">ROSE</p>
+                        <div class="happy-team-follow">
+                            <ul>
+                                <li><a href=""><img src="src/img/facebook.png"></a></li>
+                                <li><a href=""><img src="src/img/instagram.png"></a></li>
+                                <li><a href=""><img src="src/img/twitter.png"></a></li>
+                                <li><a href=""><img src="src/img/linkedin.png"></a></li>
+                                <li><a href=""><img src="src/img/youtube.png"></a></li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="col s2">
-                        <div class="happy-team-container">
-                            <div class="happy-team-img">
-                                <img src="src/img/mugshot.png">
-                            </div>
-                            <p class="happy-team-name">ROSE</p>
-                            <div class="happy-team-follow">
-                                <ul>
-                                    <li><a href=""><img src="src/img/facebook.png"></a></li>
-                                    <li><a href=""><img src="src/img/instagram.png"></a></li>
-                                    <li><a href=""><img src="src/img/twitter.png"></a></li>
-                                    <li><a href=""><img src="src/img/linkedin.png"></a></li>
-                                    <li><a href=""><img src="src/img/youtube.png"></a></li>
-                                </ul>
-                            </div>
-                            <div class="happy-team-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
-                            <a class="happy-team-more">KNOW MORE</a>
-                        </div>
-                    </div>
-                    <div class="col s2">
-                        <div class="happy-team-container">
-                            <div class="happy-team-img">
-                                <img src="src/img/mugshot.png">
-                            </div>
-                            <p class="happy-team-name">ROSE</p>
-                            <div class="happy-team-follow">
-                                <ul>
-                                    <li><a href=""><img src="src/img/facebook.png"></a></li>
-                                    <li><a href=""><img src="src/img/instagram.png"></a></li>
-                                    <li><a href=""><img src="src/img/twitter.png"></a></li>
-                                    <li><a href=""><img src="src/img/linkedin.png"></a></li>
-                                    <li><a href=""><img src="src/img/youtube.png"></a></li>
-                                </ul>
-                            </div>
-                            <div class="happy-team-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
-                            <a class="happy-team-more">KNOW MORE</a>
-                        </div>
-                    </div>
-                    <div class="col s2">
-                        <div class="happy-team-container">
-                            <div class="happy-team-img">
-                                <img src="src/img/mugshot.png">
-                            </div>
-                            <p class="happy-team-name">ROSE</p>
-                            <div class="happy-team-follow">
-                                <ul>
-                                    <li><a href=""><img src="src/img/facebook.png"></a></li>
-                                    <li><a href=""><img src="src/img/instagram.png"></a></li>
-                                    <li><a href=""><img src="src/img/twitter.png"></a></li>
-                                    <li><a href=""><img src="src/img/linkedin.png"></a></li>
-                                    <li><a href=""><img src="src/img/youtube.png"></a></li>
-                                </ul>
-                            </div>
-                            <div class="happy-team-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
-                            <a class="happy-team-more">KNOW MORE</a>
-                        </div>
+                        <div class="happy-team-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                        <a class="happy-team-more">KNOW MORE</a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="happy-team-pagination">
-                        <ul>
-                            <li class="active"></li>
-                            <li class=""></li>
-                            <li class=""></li>
-                        </ul>
+                <div class="col s6 m4 l2">
+                    <div class="happy-team-container">
+                        <div class="happy-team-img">
+                            <img src="src/img/mugshot.png">
+                        </div>
+                        <p class="happy-team-name">ROSE</p>
+                        <div class="happy-team-follow">
+                            <ul>
+                                <li><a href=""><img src="src/img/facebook.png"></a></li>
+                                <li><a href=""><img src="src/img/instagram.png"></a></li>
+                                <li><a href=""><img src="src/img/twitter.png"></a></li>
+                                <li><a href=""><img src="src/img/linkedin.png"></a></li>
+                                <li><a href=""><img src="src/img/youtube.png"></a></li>
+                            </ul>
+                        </div>
+                        <div class="happy-team-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                        <a class="happy-team-more">KNOW MORE</a>
                     </div>
+                </div>
+                <div class="col s6 m4 l2">
+                    <div class="happy-team-container">
+                        <div class="happy-team-img">
+                            <img src="src/img/mugshot.png">
+                        </div>
+                        <p class="happy-team-name">ROSE</p>
+                        <div class="happy-team-follow">
+                            <ul>
+                                <li><a href=""><img src="src/img/facebook.png"></a></li>
+                                <li><a href=""><img src="src/img/instagram.png"></a></li>
+                                <li><a href=""><img src="src/img/twitter.png"></a></li>
+                                <li><a href=""><img src="src/img/linkedin.png"></a></li>
+                                <li><a href=""><img src="src/img/youtube.png"></a></li>
+                            </ul>
+                        </div>
+                        <div class="happy-team-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                        <a class="happy-team-more">KNOW MORE</a>
+                    </div>
+                </div>
+                <div class="col s6 m4 l2">
+                    <div class="happy-team-container">
+                        <div class="happy-team-img">
+                            <img src="src/img/mugshot.png">
+                        </div>
+                        <p class="happy-team-name">ROSE</p>
+                        <div class="happy-team-follow">
+                            <ul>
+                                <li><a href=""><img src="src/img/facebook.png"></a></li>
+                                <li><a href=""><img src="src/img/instagram.png"></a></li>
+                                <li><a href=""><img src="src/img/twitter.png"></a></li>
+                                <li><a href=""><img src="src/img/linkedin.png"></a></li>
+                                <li><a href=""><img src="src/img/youtube.png"></a></li>
+                            </ul>
+                        </div>
+                        <div class="happy-team-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                        <a class="happy-team-more">KNOW MORE</a>
+                    </div>
+                </div>
+                <div class="col s6 m4 l2">
+                    <div class="happy-team-container">
+                        <div class="happy-team-img">
+                            <img src="src/img/mugshot.png">
+                        </div>
+                        <p class="happy-team-name">ROSE</p>
+                        <div class="happy-team-follow">
+                            <ul>
+                                <li><a href=""><img src="src/img/facebook.png"></a></li>
+                                <li><a href=""><img src="src/img/instagram.png"></a></li>
+                                <li><a href=""><img src="src/img/twitter.png"></a></li>
+                                <li><a href=""><img src="src/img/linkedin.png"></a></li>
+                                <li><a href=""><img src="src/img/youtube.png"></a></li>
+                            </ul>
+                        </div>
+                        <div class="happy-team-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                        <a class="happy-team-more">KNOW MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="happy-team-pagination">
+                    <ul>
+                        <li class="active"></li>
+                        <li class=""></li>
+                        <li class=""></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
     <div class="happy-blog happy-section">
-        <div class="row">
-            <div class="col s12 m4 l8 offset-l2">
-                <h3>MEET OUR TEAM</h3>
-                <div class="row ">
-                    <div class="col s12 m6">
-                        <div class="happy-facebook-api">
-                            <img src="src/img/fbapi.png">
-                        </div>
-                    </div>
-                    <div class="col s12 m6">
-                        <div class="row happy-blog-cont">
-                            <div class="happy-blog-container">
-                                <div class="col s12 m6">
-                                    <div class="happy-blog-thumbnail">
-                                        <img src="src/img/blogthum.png">
-                                    </div>
-                                </div>
-                                <div class="col s12 m6">
-                                    <div class="happy-blog-details">
-                                        <h5>Sample Blog Title</h5>
-                                        <span class="happy-blog-detail-date">
-                                            <i class="material-icons">date_range</i>
-                                            <span class="happy-date">1 Nov 2019</span>
-                                        </span>
-                                        <span class="happy-blog-detail-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus. Praesent vitae congue mi. Aenean ac dolor eget lectus ullamcorper varius. Etiam lacinia semper enim et...</span>
-                                        <a class="happy-blog-detail-continue">CONTINUE READING</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="happy-blog-container">
-                                <div class="col s12 m6">
-                                    <div class="happy-blog-thumbnail">
-                                        <img src="src/img/blogthum.png">
-                                    </div>
-                                </div>
-                                <div class="col s12 m6">
-                                    <div class="happy-blog-details">
-                                        <h5>Sample Blog Title</h5>
-                                        <span class="happy-blog-detail-date">
-                                            <i class="material-icons">date_range</i>
-                                            <span class="happy-date">1 Nov 2019</span>
-                                        </span>
-                                        <span class="happy-blog-detail-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus. Praesent vitae congue mi. Aenean ac dolor eget lectus ullamcorper varius. Etiam lacinia semper enim et...</span>
-                                        <a class="happy-blog-detail-continue">CONTINUE READING</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="happy-blog-container">
-                                <div class="col s12 m6">
-                                    <div class="happy-blog-thumbnail">
-                                        <img src="src/img/blogthum.png">
-                                    </div>
-                                </div>
-                                <div class="col s12 m6">
-                                    <div class="happy-blog-details">
-                                        <h5>Sample Blog Title</h5>
-                                        <span class="happy-blog-detail-date">
-                                            <i class="material-icons">date_range</i>
-                                            <span class="happy-date">1 Nov 2019</span>
-                                        </span>
-                                        <span class="happy-blog-detail-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus. Praesent vitae congue mi. Aenean ac dolor eget lectus ullamcorper varius. Etiam lacinia semper enim et...</span>
-                                        <a class="happy-blog-detail-continue">CONTINUE READING</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="happy-blog-container">
-                                <div class="col s12 m6">
-                                    <div class="happy-blog-thumbnail">
-                                        <img src="src/img/blogthum.png">
-                                    </div>
-                                </div>
-                                <div class="col s12 m6">
-                                    <div class="happy-blog-details">
-                                        <h5>Sample Blog Title</h5>
-                                        <span class="happy-blog-detail-date">
-                                            <i class="material-icons">date_range</i>
-                                            <span class="happy-date">1 Nov 2019</span>
-                                        </span>
-                                        <span class="happy-blog-detail-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus. Praesent vitae congue mi. Aenean ac dolor eget lectus ullamcorper varius. Etiam lacinia semper enim et...</span>
-                                        <a class="happy-blog-detail-continue">CONTINUE READING</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="happy-blog-container">
-                                <div class="col s12 m6">
-                                    <div class="happy-blog-thumbnail">
-                                        <img src="src/img/blogthum.png">
-                                    </div>
-                                </div>
-                                <div class="col s12 m6">
-                                    <div class="happy-blog-details">
-                                        <h5>Sample Blog Title</h5>
-                                        <span class="happy-blog-detail-date">
-                                            <i class="material-icons">date_range</i>
-                                            <span class="happy-date">1 Nov 2019</span>
-                                        </span>
-                                        <span class="happy-blog-detail-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus. Praesent vitae congue mi. Aenean ac dolor eget lectus ullamcorper varius. Etiam lacinia semper enim et...</span>
-                                        <a class="happy-blog-detail-continue">CONTINUE READING</a>
-                                    </div>
-                                </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <h3>MEET OUR TEAM</h3>
+                    <div class="row ">
+                        <div class="col s12 m12 l6">
+                            <div class="happy-facebook-api">
+                                <img src="src/img/fbapi.png">
                             </div>
                         </div>
+                        <div class="col s12 m12 l6">
+                            <div class="row happy-blog-cont">
+                                <div class="happy-blog-container">
+                                    <div class="col s12 m6">
+                                        <div class="happy-blog-thumbnail">
+                                            <img src="src/img/blogthum.png">
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m6">
+                                        <div class="happy-blog-details">
+                                            <h5>Sample Blog Title</h5>
+                                            <span class="happy-blog-detail-date">
+                                                <i class="material-icons">date_range</i>
+                                                <span class="happy-date">1 Nov 2019</span>
+                                            </span>
+                                            <span class="happy-blog-detail-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus. Praesent vitae congue mi. Aenean ac dolor eget lectus ullamcorper varius. Etiam lacinia semper enim et...</span>
+                                            <a class="happy-blog-detail-continue">CONTINUE READING</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="happy-blog-container">
+                                    <div class="col s12 m6">
+                                        <div class="happy-blog-thumbnail">
+                                            <img src="src/img/blogthum.png">
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m6">
+                                        <div class="happy-blog-details">
+                                            <h5>Sample Blog Title</h5>
+                                            <span class="happy-blog-detail-date">
+                                                <i class="material-icons">date_range</i>
+                                                <span class="happy-date">1 Nov 2019</span>
+                                            </span>
+                                            <span class="happy-blog-detail-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus. Praesent vitae congue mi. Aenean ac dolor eget lectus ullamcorper varius. Etiam lacinia semper enim et...</span>
+                                            <a class="happy-blog-detail-continue">CONTINUE READING</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="happy-blog-container">
+                                    <div class="col s12 m6">
+                                        <div class="happy-blog-thumbnail">
+                                            <img src="src/img/blogthum.png">
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m6">
+                                        <div class="happy-blog-details">
+                                            <h5>Sample Blog Title</h5>
+                                            <span class="happy-blog-detail-date">
+                                                <i class="material-icons">date_range</i>
+                                                <span class="happy-date">1 Nov 2019</span>
+                                            </span>
+                                            <span class="happy-blog-detail-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus. Praesent vitae congue mi. Aenean ac dolor eget lectus ullamcorper varius. Etiam lacinia semper enim et...</span>
+                                            <a class="happy-blog-detail-continue">CONTINUE READING</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="happy-blog-container">
+                                    <div class="col s12 m6">
+                                        <div class="happy-blog-thumbnail">
+                                            <img src="src/img/blogthum.png">
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m6">
+                                        <div class="happy-blog-details">
+                                            <h5>Sample Blog Title</h5>
+                                            <span class="happy-blog-detail-date">
+                                                <i class="material-icons">date_range</i>
+                                                <span class="happy-date">1 Nov 2019</span>
+                                            </span>
+                                            <span class="happy-blog-detail-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus. Praesent vitae congue mi. Aenean ac dolor eget lectus ullamcorper varius. Etiam lacinia semper enim et...</span>
+                                            <a class="happy-blog-detail-continue">CONTINUE READING</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="happy-blog-container">
+                                    <div class="col s12 m6">
+                                        <div class="happy-blog-thumbnail">
+                                            <img src="src/img/blogthum.png">
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m6">
+                                        <div class="happy-blog-details">
+                                            <h5>Sample Blog Title</h5>
+                                            <span class="happy-blog-detail-date">
+                                                <i class="material-icons">date_range</i>
+                                                <span class="happy-date">1 Nov 2019</span>
+                                            </span>
+                                            <span class="happy-blog-detail-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis iaculis metus. Praesent vitae congue mi. Aenean ac dolor eget lectus ullamcorper varius. Etiam lacinia semper enim et...</span>
+                                            <a class="happy-blog-detail-continue">CONTINUE READING</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="happy-team-show">
-                        <a href="" class="happy-package-quote btn-large">SHOW MORE</a>
+                    <div class="row">
+                        <div class="happy-team-show">
+                            <a href="" class="happy-package-quote btn-large">SHOW MORE</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="happy-contact">
-        <div class="row">
-            <div class="col s12 m4 l8 offset-l2">
-                <div class="row">
-                    <h3>CONTACT US</h3>
-                    <div class="col s12 m6 offset-m6">
-                        <form class="col s12">
-                        	<div class="happy-contact-form">
-	                            <div class="row">
-	                                <div class="input-field col s12">
-	                                    <input id="first_name" type="text" class="validate">
-	                                    <label for="first_name">YOUR NAME*</label>
-	                                </div>
-	                            </div>
-	                            <div class="row">
-	                                <div class="input-field col s12">
-	                                    <input id="contact_number" type="tel" class="validate">
-	                                    <label for="contact_number">CONTACT*</label>
-	                                </div>
-	                            </div>
-	                            <div class="row">
-	                                <div class="input-field col s12">
-	                                    <input id="email" type="email" class="validate">
-	                                    <label for="email">EMAIL*</label>
-	                                    <span class="helper-text" data-error="wrong format of email" data-success="good!"></span>
-	                                </div>
-	                            </div>
-	                            <div class="row">
-	                                <div class="input-field col s12">
-	                                    <textarea id="message" class="materialize-textarea" data-length="1000"></textarea>
-	                                    <label for="message">MESSAGE*</label>
-	                                </div>
-	                            </div>
-	                            <div class="row">
-	                                <div class="input-field col s12">
-	                                    <input id="target-date" type="text" class="datepicker">
-	                                    <label for="target-date">TARGET DATE: MM/DD/YEAR* </label>
-	                                    <i class="material-icons prefix target-date-icon">date_range</i>
-	                                </div>
-	                            </div>
-                        	</div>
-                    		<button type="" class="waves-effect waves-light btn-large happy-btn-submit">SUBMIT</button>
-                        </form>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <div class="row">
+                        <h3>CONTACT US</h3>
+                        <div class="col s12 m8 offset-m4 l6 offset-l6">
+                            <form class="col s12">
+                                <div class="happy-contact-form">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="first_name" type="text" class="validate">
+                                            <label for="first_name">YOUR NAME*</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="contact_number" type="tel" class="validate">
+                                            <label for="contact_number">CONTACT*</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="email" type="email" class="validate">
+                                            <label for="email">EMAIL*</label>
+                                            <span class="helper-text" data-error="wrong format of email" data-success="good!"></span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <textarea id="message" class="materialize-textarea" data-length="1000"></textarea>
+                                            <label for="message">MESSAGE*</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="target-date" type="text" class="datepicker">
+                                            <label for="target-date">TARGET DATE: MM/DD/YEAR* </label>
+                                            <i class="material-icons prefix target-date-icon">date_range</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="" class="waves-effect waves-light btn-large happy-btn-submit">SUBMIT</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="happy-footer">
-    	<div class="row">
-            <div class="col s12 m4 l8 offset-l2">
-            	<div class="row">
-		    		<div class="col s6 m3">
-		    			<img src="src/img/logowhite.png" class="happy-footer-logo">
-		    		</div>
-		    		<div class="col s6 m3">
-		    			<div class="happy-footer-detail">
-			    			<div class="happy-footer-icon phone">
-			    				<i class="material-icons">phone_android</i>
-			    			</div>
-			    			<div class="happy-footer-text">
-			    				<span>+63 967 214 8323</span>
-			    				<span>+63 942 272 6592</span>
-			    			</div>
-			    		</div>
-		    		</div>
-		    		<div class="col s6 m3">
-		    			<div class="happy-footer-detail happy-email">
-			    			<div class="happy-footer-icon email">
-			    				<i class="material-icons">email</i>
-			    			</div>
-			    			<div class="happy-footer-text">
-			    				<span>happy@happyheartsevents.com</span>
-			    			</div>
-			    		</div>
-		    		</div>
-		    		<div class="col s6 m3">
-		    			<div class="happy-footer-detail happy-facebook">
-			    			<div class="happy-footer-icon facebook">
-			    				<i class="fa fa-facebook"></i>
-			    			</div>
-			    			<div class="happy-footer-text">
-			    				<span>/HappyHeartsEvent/</span>
-			    			</div>
-		    			</div>
-		    		</div>
-		    	</div>
-            		
-        	</div>
+        <div class="container">
+            <div class="row">
+                <div class="col s6 m6 l3 happy-footer-wrapper">
+                    <img src="src/img/logowhite.png" class="happy-footer-logo">
+                </div>
+                <div class="col s6 m6 l3 happy-footer-wrapper">
+                    <div class="happy-footer-detail">
+                        <div class="valign-wrapper">
+                            <div class="happy-footer-icon phone">
+                                <i class="material-icons">phone_android</i>
+                            </div>
+                            <span class="happy-footer-text">+63 967 214 8323 <br> &nbsp;+63 942 272 6592</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 m6 l3 happy-footer-wrapper">
+                    <div class="happy-footer-detail happy-email">
+                        <div class="valign-wrapper email">
+                            <div class="happy-footer-icon">
+                                <i class="material-icons">email</i>
+                            </div>
+                            <span class="happy-footer-text truncate">happy@happyheartsevents.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 m6 l3 happy-footer-wrapper">
+                    <div class="happy-footer-detail happy-facebook">
+                        <div class="valign-wrapper">
+                            <div class="happy-footer-icon facebook">
+                                <i class="fa fa-facebook"></i>
+                            </div>
+                            <span class="happy-footer-text truncate">/HappyHeartsEvent/</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    	<div class="happy-copyright">
-    		<p>Copyright 2019. Happy Hearts Events Planning. All rights reserved.</p>
-    	</div>
+        <div class="happy-copyright">
+            <p>Copyright 2019. Happy Hearts Events Planning. All rights reserved.</p>
+        </div>
     </div>
     <script src="src/js/jquery-3.4.1.slim.min.js"></script>
     <script src="src/js/materialize.min.js"></script>
-
     <script type="text/javascript">
-    	$(document).ready(() => {
-    		$('.datepicker').datepicker();
-    		$('#message').characterCounter();
-    	})
+    $(document).ready(() => {
+        $('.sidenav').sidenav();
+        $('.datepicker').datepicker();
+        $('#message').characterCounter();
+
+    })
     </script>
 </body>
 

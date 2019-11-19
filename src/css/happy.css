@@ -30,8 +30,7 @@ body, html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	z-index: 2;
-	position: relative;
+	
 }
 .happy-section {
 	padding-top: 95px;
@@ -47,6 +46,7 @@ nav ul a {
 	color: #000;
 	text-transform: uppercase;
 	font-weight: bold;
+	padding: 0 10px;
 }
 
 nav ul a.contact {
@@ -120,12 +120,16 @@ nav ul a.contact {
 	background-size: cover;
 }
 .happy-box {
-    outline: 120px solid #fff;
+    outline: 92px solid #fff;
     transform: rotate(10deg);
     height: 430px;
     width: 871px;
     z-index: 1;
     position: absolute;
+    transition: all 0.2s;
+}
+.happy-about-video:hover .happy-box {
+    transform: rotate(0deg);
 }
 .happy-video-btn {
     position: relative;
@@ -137,6 +141,9 @@ nav ul a.contact {
     right: 85px;
     z-index: 3;
     cursor: pointer;
+}
+.happy-vid:hover {
+	cursor: pointer
 }
 .happy-vid span {
 	color: #fff;
@@ -181,7 +188,7 @@ nav ul a.contact {
 	font-size: 3.5em;
 }
 .happy-package-flower p {
-	width: 250px;
+	width: 80%;
     margin: 0 auto;
     text-align: center;
 }
@@ -197,7 +204,12 @@ nav ul a.contact {
     left: 40%;
 }
 .happy-flower img {
-	margin-top: 15px;
+    margin-top: 15px;
+    transition: all 3s;
+}
+
+.happy-package-flower:hover .happy-flower img {
+    transform: rotate(360deg);
 }
 .happy-package-btn {
 	font-size: 0.85em;
@@ -205,7 +217,7 @@ nav ul a.contact {
     line-height: 50px;
     margin: 0 auto;
    	font-weight: bold;
-    width: 150px;
+    width: 90%;
     display: block;
     padding: 0;
 }
@@ -265,7 +277,8 @@ nav ul a.contact {
 	margin-top: 15px;
 	font-size: 1.1em;
 	text-decoration: underline;
-	display: block
+	display: block;
+    margin-bottom: 15px;
 }
 .happy-team-follow {
 	margin-top: 15px;
@@ -360,6 +373,7 @@ nav ul a.contact {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 830px;
 }
 .happy-contact h3 {
 	width: 400px;
@@ -437,22 +451,10 @@ input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-def
     text-align: center;
     font-weight: bold;
 }
-.happy-footer-text, .happy-footer-icon {
-	display: inline-block;
-}
+
 .happy-footer-text {
-
-}
-.happy-footer-text span{
 	color: #fff;
-	display: block
-}
-
-.happy-footer-icon.phone {
-    vertical-align: super;
-}
-.happy-footer-icon.email {
-    vertical-align: middle;
+	text-indent: 5px;
 }
 
 .happy-footer-icon.facebook {
@@ -461,6 +463,196 @@ input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-def
 .happy-footer-icon.facebook i{
     font-size: 2em;
 }
-.happy-facebook .happy-footer-text {
-	vertical-align: super;
+.happy-facebook-api img {
+	width: 100%;
+}
+
+a.sidenav-trigger i {
+	color:#c82027;
+	font-size: 2em;
+	font-weight: bold;
+}
+.sidenav img {
+	width: 50%;
+}
+.sidenav li:first-child {
+	margin-top: 25px;
+}
+@media only screen and (min-width: 993px) {
+	.container {
+	    width: 80%;
+	}
+	.happy-header {
+		z-index: 2;
+		position: relative;
+	}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 991px){
+	.container {
+	    width: 90%;
+	}
+	nav .brand-logo {
+    	right: 0;
+	    -webkit-transform: translateX(-10%);
+	    transform: translateX(-10%);
+	}
+	.happy-box {
+		display: none;
+	}
+	.happy-header {
+		background-position-x: 68%;
+		position: none;
+	}
+	.happy-carolina-under { 
+	    width: 100%;
+	    font-size: 18px;
+	    letter-spacing: 2px;
+	    text-indent: 163px;
+	    text-align: left;
+	}
+	.happy-carolina, .happy-carolina span {
+		font-size: 57px;
+	}
+	.happy-banner-btn a {
+	    height: 50px;
+	    line-height: 50px;
+	    padding: 0 10px;
+	}
+	.happy-banner-read {
+		margin-right: 15px;
+	}
+	.happy-section {
+	    padding-top: 55px;
+    	padding-bottom: 55px;
+	}
+	.happy-contact-form {
+		margin-bottom: 15px;
+	}
+}
+@media only screen and (min-width: 376px) and (max-width: 600px) {
+	.happy-box {
+		display: none;
+		position: none;
+	}
+  	.container {
+	    width: 100%;
+	}
+	.happy-header {
+	    background-position-x: -624px;
+	}	
+	nav .brand-logo {
+    	right: 0;
+	    -webkit-transform: translateX(-10%);
+	    transform: translateX(-10%);
+	}
+	.happy-banner-text {
+		margin-bottom: 0;
+	    height: 22vh;
+	}
+	.happy-carolina, .happy-carolina span {
+		font-size: 44px;
+	}
+	.happy-carolina-under {
+	        text-align: left;
+		    font-size: 15px;
+		    width: 100%;
+		    letter-spacing: 0;
+		    text-indent: 159px;
+	}
+	.happy-banner-btn a {
+	    height: 40px;
+	    line-height: 40px;
+	    padding: 0 5px;
+	}
+	.happy-banner-read {
+		margin-right: 10px;
+	}
+	.happy-banner-inquire {
+		padding: 0 18px;
+	}
+	.happy-flower {
+		left: 25%;
+	}
+
+	.happy-section {
+	    padding-top: 35px;
+    	padding-bottom: 35px;
+	}
+	.happy-about-us, .happy-contact h3, .happy-blog h3, .happy-package h3, .happy-team h3 {
+		width: 80%;
+		text-align: center;
+	    margin: 0 auto;
+	}
+	.happy-contact-form {
+		margin-top: 15px;
+	}
+	.happy-footer-detail {
+		margin-top: 0;
+	}
+	.happy-footer-detail.happy-email, .happy-footer-detail.happy-facebook {
+	    margin-top: 10px;
+	}
+
+}
+@media only screen and (max-width: 375px) {
+
+	.happy-header {
+		background-position-x: 72%;
+		position: none;
+	}
+	nav .sidenav-trigger {
+		margin: 0;
+	}
+	a.sidenav-trigger i {
+		font-size: 1.4em;
+		height: 42px;
+    	line-height: 42px;
+	}
+	nav .brand-logo {
+    	right: 0;
+	    -webkit-transform: translateX(-10%);
+	    transform: translateX(-10%);
+	}
+	.brand-logo img {
+		width: 70%;
+    	float: right;
+	}
+	.happy-carolina, .happy-carolina span {
+	    font-size: 27px;
+	}
+	.happy-carolina-under {
+	    width: 100%;
+	    text-align: left;
+	    font-size: 10px;
+	    margin-top: 25px;
+	    letter-spacing: 0;
+	    text-indent: 86px;
+	}
+	.happy-banner-btn a{
+	    height: 40px;
+	    line-height: 40px;
+	    padding: 0 5px;
+	    display: inline-block;
+	}
+	.happy-banner-read {
+		margin-right: 5px;
+	}
+	.happy-section {
+	    padding-top: 15px;
+    	padding-bottom: 15px;
+	}
+	.happy-about-us, .happy-contact h3, .happy-blog h3, .happy-package h3, .happy-team h3 {
+		width: 80%;
+		text-align: center;
+	    margin: 0 auto;
+	    font-size: 2em;
+	}
+	.happy-about p {
+		font-size: 1em;
+	}
+	.happy-box {display: none;}
+	.happy-package-wrapper, .happy-footer-wrapper {
+		width: 100% !important;
+	}
 }
