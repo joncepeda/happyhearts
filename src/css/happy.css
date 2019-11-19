@@ -478,6 +478,45 @@ a.sidenav-trigger i {
 .sidenav li:first-child {
 	margin-top: 25px;
 }
+
+.happy-package-modal-header {
+	color: #c82027;
+    font-size: 4em;
+    margin-left: 5px;
+}
+
+.happy-modal-close {
+	position: absolute;
+    right: 0;
+}
+
+.happy-modal-content-wrapper {
+	overflow-y: auto;
+}
+.happy-modal-content-wrapper h3 {
+	    font-size: 1.5em;
+}
+.happy-modal-content-wrapper h4 {
+	    font-size: 1.2em;
+}
+.modal .modal-content {
+	padding: 15px;
+}
+.happy-modal-team-img, .happy-modal-team-name {
+	text-align: center;
+	font-weight: bold;
+}
+.happy-modal-team-name {
+	display: block;
+}
+.happy-modal-question {
+	font-weight: bold;
+	display: block;
+}
+.happy-modal-answer {
+	font-style: italic;
+}
+
 @media only screen and (min-width: 993px) {
 	.container {
 	    width: 80%;
@@ -485,6 +524,12 @@ a.sidenav-trigger i {
 	.happy-header {
 		z-index: 2;
 		position: relative;
+	}
+	.happy-package-flower p {
+		width: 80%;
+	}
+	.happy-package-btn {
+		width: 40%;
 	}
 }
 
